@@ -6,7 +6,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   padding: 0;
   margin: 0;
@@ -14,8 +14,8 @@
 }
 
 .overlay {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: rgba(41,47,51,0.65);
 }
 
@@ -28,6 +28,8 @@ a {
 /* Navigation styling  */
 .navigation-header{
   width:100%;
+  animation: fadeIn; 
+  animation-duration: 2s;
 }
 
 header ul {
@@ -58,13 +60,14 @@ header ul li a {
 }
 
 header ul li:hover  {
-  background: #2196f3;
+  background:rgb(42,0,147);
 }
 
 @media (max-width: 768px){
   .navigation-header{
     width:100%;
     background: #000;
+    text-align: center;
   }
   header ul {
     display:block;
@@ -74,3 +77,79 @@ header ul li:hover  {
     display:block;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Landing Page styling */
+
+.landing-page-header-text-wrapper
+{
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  margin-top: 25vh;
+  
+}
+
+.landing-page-header-text-one
+{
+  font-size: 4em;
+  font-family: 'IBM Plex Serif', serif;
+  animation: fadeIn; 
+  animation-duration: 3s;
+}
+
+.landing-page-header-text-two
+{
+  font-size: 2em;
+  width: 70vw;
+  text-align:center;
+  line-height: 5vh;
+  font-family: 'Merriweather', serif;
+  animation: fadeIn; 
+  animation-duration: 2s;
+  animation-delay: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.covered
+{
+  color: goldenrod;
+}
+
+@media (max-width: 768px){
+  .landing-page-header-text-one
+{
+  font-size: 2em;
+  text-align: center;
+}
+
+.landing-page-header-text-two
+{
+  font-size: 1em;
+  width: 100vw;
+  text-align:center;
+  line-height: 3vh;
+
+}
+}
+
+
+
+
+
+
+/* About Page Styling */
