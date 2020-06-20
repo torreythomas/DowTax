@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'tachyons';
+import logo from './Images/mike.jpeg'
 
 function App() {
   return (
@@ -32,18 +33,58 @@ function App() {
       <div id="Home">
         <div className="landing-page-header-text-wrapper">
         <h1 className="landing-page-header-text-one"> Mike Doweary and Associates LLC</h1>
-        <h2 className="landing-page-header-text-two">  Success is when preparation meets opportunity.<br/> We've got planning <i className="covered">covered</i>. </h2>
+        <h2 className="landing-page-header-text-two">  Need a plan to get the most out of your taxes?<br/> We've got you <i className="covered">covered</i>. </h2>
+        <a className="landing-page-consultation-button" href="mailto:info@dow.tax"> Request A Consultation</a>
         </div>
       </div>
+      </div>
+
+              {/*  Separater Div renderings */}
+
+              <div className="separater-div"> </div>
 
 
-
-                  {/*  About Section Page renderings */}
+              {/*  About Section Page renderings */}
 
 
       <div id="About">
+          <div className="about-description-container-one">
+            <div className="about-logo-container">
+             
+        </div>
+        <div className="about-description-container-one-sub-container">
+          <h1 className="about-description-header-one">
+             Navigating through taxes can be <i>challenging.</i>
+          </h1>
+          <p className="about-description-main-text-one">
+          Navigating through the financial realm of taxes, investments, job advancements, and job loss can be a challenge. Understanding how these challenges affect your daily, monthly, and yearly financial goals can get overwhelming. </p>
+        </div>
+        </div>
 
-      </div>
+             {/*  Separater Div renderings */}
+
+             <div className="separater-div"> </div>
+
+
+        <div className="about-description-container-two">
+            <div className="about-pic-container">
+             <img src={logo}></img>
+        </div>
+        <div className="about-description-container-one-sub-container-two">
+          <h1 className="about-description-header-one">
+             We work for <i>YOU.</i>
+          </h1>
+          <p className="about-description-main-text-one">
+             M. Doweary & Associates, LLC is a business advisor supporting small business owners, executive teams, and boards both in day-to-day operations and in preparing for future business growth and opportunity. Our client relationships are our priority as we deliver service that exceeds client expectations.
+          </p>
+        </div>
+        </div>
+    </div>
+
+    
+     {/*  Separater Div renderings */}
+
+              <div className="separater-div"> </div>
 
 
 
@@ -51,7 +92,10 @@ function App() {
 
 
 
-      </div>
+
+
+
+
     </div>
   
   );
