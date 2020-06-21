@@ -20,6 +20,7 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Merriweather', serif;
 }
 
 .overlay {
@@ -395,6 +396,10 @@ img{
     height: 20vh;
   }
   
+  .navigation-header-2{
+    visibility: hidden;
+  }
+  
   .service-rendering-image-container-2{
     background: url(./Images/business.jpeg) no-repeat center center;
     -webkit-background-size: cover;
@@ -454,6 +459,7 @@ img{
     .our-services-design{
       text-align: center;
       font-size: 20px;
+      margin-top: -30vh;
     }
     
     .service-rendering-text-container{
@@ -586,4 +592,204 @@ img{
     height: 30vh;
   }
 
+}
+
+
+/* Updates Styles */
+
+#Updates{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(249,237,233);
+}
+
+.updates-container{
+  display:flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.update-container-1{
+  width:100vw;
+  height:50vh;
+  font-family: 'Merriweather', serif;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-top:10vh;
+  line-height: 30px;
+}
+
+.update-container-2{
+  width:100vw;
+  height:50vh;
+  font-family: 'Merriweather', serif;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.update-header{
+  text-align: center;
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  color: red;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+.separater-div-2{
+  background-color: #1a1a1a;
+  height: 0.5px;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: -10vh;
+}
+
+@media (max-width: 374px){
+  .update-container-1{
+    width:100vw;
+    height:50vh;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 13px;
+  }
+  
+  .update-container-2{
+    width:100vw;
+    height:30vh;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 13px;
+  }
+
+  .update-header{
+    text-align: center;
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    color: red;
+    font-size: 15px;
+  }
+  
+  .separater-div-2{
+   display:none;
+  }
+}
+
+@media (min-width: 375px) and (max-width:768px){
+  .update-container-1{
+    width:100vw;
+    height:50vh;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 13px;
+  }
+  
+  .update-container-2{
+    width:100vw;
+    height:30vh;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 13px;
+    margin-top: -18vh;
+  }
+
+  .update-header{
+    text-align: center;
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    color: red;
+    font-size: 15px;
+  }
+  
+  .separater-div-2{
+   display:none;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+  .update-container-1{
+    width:100vw;
+    height:50vh;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 23px;
+  }
+  
+  .update-container-2{
+    width:100vw;
+    height:30vh;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 23px;
+    margin-top: -18vh;
+  }
+
+  .update-header{
+    text-align: center;
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    color: red;
+    font-size: 25px;
+  }
+  
+}
+
+@media (min-width: 1024px) and (min-height:1366px) {
+  .update-container-1{
+    width:100vw;
+    height:50vh;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 23px;
+  }
+  
+  .update-container-2{
+    width:100vw;
+    height:30vh;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 23px;
+    margin-top: -28vh;
+  }
+
+  .update-header{
+    text-align: center;
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    color: red;
+    font-size: 25px;
+  }
 }

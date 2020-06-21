@@ -22,7 +22,7 @@ function App() {
         <li className="nav-item"><a href="#Home">Home</a></li>
         <li className="nav-item"><a href="#About">About</a></li>
         <li className="nav-item"><a href="#Services">Services</a></li>
-        <li className="nav-item"><a href="#">Updates</a></li>
+        <li className="nav-item"><a href="#Updates">Updates</a></li>
         <li className="nav-item"><a href="#">Payment</a></li>
         <li className="nav-item"><a href="#">Contact</a></li>
         </ul>
@@ -136,8 +136,34 @@ function App() {
 </div>
 
 
+      {/*  Separater Div renderings */}
+
+      <div className="separater-div"> </div>
 
 
+          {/*  Updates Renderings */}
+
+<div id="Updates">
+<div className="updates-container">
+  <div className="update-container-1">
+    <h1 className="update-header"> COVID-19 Update </h1>
+    <p>  In response to the COVID-19 pandemic, M. Doweary & Associates, LLC is following the CDC and Pennsylvania Health Department Guidelines on social distancing to limit the spread and exposure of coronavirus. M. Doweary & Associates, LLC community office will therefore be closed to the public during this unprecedented time. </p>
+    <p> All other avenues of normal taxpayer communication and public information access remain open, including online, via telephone and by mail. If you have questions or need local tax assistance, please contact Micheal Doweary via email through the Contact Us page or call our Taxpayer Service team at 717-885-0098. Thank you.</p>
+  </div>
+ {/*  Separater Div renderings */}
+
+ <div className="separater-div-2"> </div>
+
+
+  <div className="update-container-2">
+    <h1 className="update-header">TAX DEADLINE EXTENDED </h1>
+    <p> The filing deadline for tax returns has been extended from April 15 to July 15, 2020. The IRS urges taxpayers who are owed a refund to file as quickly as possible.
+
+July 15, 2020— The Department of Revenue today announced the deadline for taxpayers to file their 2019 Pennsylvania personal income tax returns is extended to July 15, 2020. </p>
+<p>This means taxpayers will have an additional 90 days to file from the original deadline of April 15</p>
+  </div>
+</div>
+</div>
 
 
 
