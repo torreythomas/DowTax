@@ -48,8 +48,8 @@ function App() {
 
 
       <div id="About">
-          <div className="about-description-container-one">
-            <div className="about-logo-container">
+          <div className="about-description-container-one shadow-5">
+            <div className="about-logo-container ">
              
         </div>
         <div className="about-description-container-one-sub-container">
@@ -95,7 +95,7 @@ function App() {
 
       <h1 className="our-services-design"> Our services are designed to keep you <i className="covered"> ready </i></h1>
 
-<div className="service-rendering-container">
+<div className="service-rendering-container grow">
   <div className="service-rendering-text-container">
         <h2> Accounting and Bookkeeping</h2>
     <p> We make sure you'll always be up to speed.</p>
@@ -105,7 +105,7 @@ function App() {
   <div className="service-rendering-image-container-1">
   </div>
 </div>
-<div className="service-rendering-container">
+<div className="service-rendering-container grow">
   <div className="service-rendering-text-container">
     <h2> Business and Financial Consulting </h2>
     <p> We want your business to reach it's full potential.</p>
@@ -115,7 +115,7 @@ function App() {
   <div className="service-rendering-image-container-2">
   </div>
 </div>
-<div className="service-rendering-container">
+<div className="service-rendering-container grow">
   <div className="service-rendering-text-container">
     <h2> Government and Nonprofit </h2>
     <p> We offer consultation to government and nonprofit entities.</p>
@@ -124,7 +124,7 @@ function App() {
   <div className="service-rendering-image-container-3">
   </div>
 </div>
-<div className="service-rendering-container">
+<div className="service-rendering-container grow">
   <div className="service-rendering-text-container">
     <h2> Tax Preparation & Planning </h2>
     <p> Looking for a solid plan? We can do that for you.</p>

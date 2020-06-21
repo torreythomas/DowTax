@@ -333,6 +333,7 @@ img{
   align-items: center;
   flex-direction: column;
 }
+
 .service-rendering-image-container-1{
   background: url(./Images/accounting.jpeg) no-repeat center center;
   -webkit-background-size: cover;
