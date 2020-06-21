@@ -23,8 +23,8 @@ function App() {
         <li className="nav-item"><a href="#About">About</a></li>
         <li className="nav-item"><a href="#Services">Services</a></li>
         <li className="nav-item"><a href="#Updates">Updates</a></li>
-        <li className="nav-item"><a href="#">Payment</a></li>
-        <li className="nav-item"><a href="#">Contact</a></li>
+        <li className="nav-item"><a href="#">Resources</a></li>
+        <li className="nav-item"><a href="#">Contact & Payment</a></li>
         </ul>
       </header>
 
@@ -88,12 +88,12 @@ function App() {
         <li className="nav-item"><a href="#About">About</a></li>
         <li className="nav-item"><a href="#Services">Services</a></li>
         <li className="nav-item"><a href="#">Updates</a></li>
-        <li className="nav-item"><a href="#">Payment</a></li>
-        <li className="nav-item"><a href="#">Contact</a></li>
+        <li className="nav-item"><a href="#">Resources</a></li>
+        <li className="nav-item"><a href="#">Contact & Payment</a></li>
         </ul>
       </header>
 
-      <h1 className="our-services-design"> Our services are designed to keep you <i className="covered"> ready </i></h1>
+      <h1 className="our-services-design"> Our services are designed to keep you ready</h1>
 
 <div className="service-rendering-container grow">
   <div className="service-rendering-text-container">
@@ -145,18 +145,18 @@ function App() {
 
 <div id="Updates">
 <div className="updates-container">
-  <div className="update-container-1">
-    <h1 className="update-header"> COVID-19 Update </h1>
+  <div className="update-container-1 grow shadow-5 dib">
+    <h1 className="update-header"> <u>COVID-19 Update </u></h1>
     <p>  In response to the COVID-19 pandemic, M. Doweary & Associates, LLC is following the CDC and Pennsylvania Health Department Guidelines on social distancing to limit the spread and exposure of coronavirus. M. Doweary & Associates, LLC community office will therefore be closed to the public during this unprecedented time. </p>
     <p> All other avenues of normal taxpayer communication and public information access remain open, including online, via telephone and by mail. If you have questions or need local tax assistance, please contact Micheal Doweary via email through the Contact Us page or call our Taxpayer Service team at 717-885-0098. Thank you.</p>
   </div>
  {/*  Separater Div renderings */}
 
- <div className="separater-div-2"> </div>
+ {/* <div className="separater-div-2"> </div> */}
 
 
-  <div className="update-container-2">
-    <h1 className="update-header">TAX DEADLINE EXTENDED </h1>
+  <div className="update-container-2 grow shadow-5 dib">
+    <h1 className="update-header"><u>TAX DEADLINE EXTENDED</u> </h1>
     <p> The filing deadline for tax returns has been extended from April 15 to July 15, 2020. The IRS urges taxpayers who are owed a refund to file as quickly as possible.
 
 July 15, 2020— The Department of Revenue today announced the deadline for taxpayers to file their 2019 Pennsylvania personal income tax returns is extended to July 15, 2020. </p>

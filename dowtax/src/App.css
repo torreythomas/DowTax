@@ -383,7 +383,14 @@ img{
 
 .our-services-design{
   text-align: center;
-  margin: 80px;
+  background-color: rgb(249,237,233);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 14vh;
+  color: black;
 }
 
 @media (max-width: 374px){
@@ -607,28 +614,35 @@ img{
 .updates-container{
   display:flex;
   flex-direction: column;
+  align-items: center;
   width: 100vw;
+  color: white;
 }
 
 .update-container-1{
-  width:100vw;
-  height:50vh;
+  width:80vw;
+  height:40vh;
   font-family: 'Merriweather', serif;
   padding: 20px;
   font-size: 20px;
   text-align: center;
   margin-top:10vh;
   line-height: 30px;
+  background-color: rgba(0,0,0,0.7);
+  PADDING: 10px;
 }
 
 .update-container-2{
-  width:100vw;
-  height:50vh;
+  width:80vw;
+  height:35vh;
+  margin-top:12vh;
   font-family: 'Merriweather', serif;
   padding: 20px;
   font-size: 20px;
   text-align: center;
   line-height: 30px;
+  background-color: rgba(0,0,0,0.7);
+  PADDING: 10px;
 }
 
 .update-header{
