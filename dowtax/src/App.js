@@ -21,7 +21,7 @@ function App() {
         <ul className="navigation-items-container">
         <li className="nav-item"><a href="#Home">Home</a></li>
         <li className="nav-item"><a href="#About">About</a></li>
-        <li className="nav-item"><a href="#">Services</a></li>
+        <li className="nav-item"><a href="#Services">Services</a></li>
         <li className="nav-item"><a href="#">Updates</a></li>
         <li className="nav-item"><a href="#">Payment</a></li>
         <li className="nav-item"><a href="#">Contact</a></li>
@@ -61,11 +61,6 @@ function App() {
         </div>
         </div>
 
-             {/*  Separater Div renderings */}
-
-             <div className="separater-div"> </div>
-
-
         <div className="about-description-container-two">
             <div className="about-pic-container">
              <img src={logo}></img>
@@ -80,15 +75,65 @@ function App() {
         </div>
         </div>
     </div>
+  
+          {/* Services renderings */}
 
-    
-     {/*  Separater Div renderings */}
-
-              <div className="separater-div"> </div>
-
+<div id="Services">
 
 
+                 {/* Navigation Menu */}
+                 <header className="navigation-header-2">
+        <ul className="navigation-items-container">
+        <li className="nav-item"><a href="#Home">Home</a></li>
+        <li className="nav-item"><a href="#About">About</a></li>
+        <li className="nav-item"><a href="#Services">Services</a></li>
+        <li className="nav-item"><a href="#">Updates</a></li>
+        <li className="nav-item"><a href="#">Payment</a></li>
+        <li className="nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </header>
 
+      <h1 className="our-services-design"> Our services are designed to keep you <i className="covered"> ready </i></h1>
+
+<div className="service-rendering-container">
+  <div className="service-rendering-text-container">
+        <h2> Accounting and Bookkeeping</h2>
+    <p> We make sure you'll always be up to speed.</p>
+    <a className="landing-page-consultation-button" href="mailto:info@dow.tax"> Request A Consultation</a>
+
+  </div>
+  <div className="service-rendering-image-container-1">
+  </div>
+</div>
+<div className="service-rendering-container">
+  <div className="service-rendering-text-container">
+    <h2> Business and Financial Consulting </h2>
+    <p> We want your business to reach it's full potential.</p>
+    <a className="landing-page-consultation-button" href="mailto:info@dow.tax"> Request A Consultation</a>
+
+  </div>
+  <div className="service-rendering-image-container-2">
+  </div>
+</div>
+<div className="service-rendering-container">
+  <div className="service-rendering-text-container">
+    <h2> Government and Nonprofit </h2>
+    <p> We offer consultation to government and nonprofit entities.</p>
+        <a className="landing-page-consultation-button" href="mailto:info@dow.tax"> Request A Consultation</a>
+  </div>
+  <div className="service-rendering-image-container-3">
+  </div>
+</div>
+<div className="service-rendering-container">
+  <div className="service-rendering-text-container">
+    <h2> Tax Preparation & Planning </h2>
+    <p> Looking for a solid plan? We can do that for you.</p>
+        <a className="landing-page-consultation-button" href="mailto:info@dow.tax"> Request A Consultation</a>
+  </div>
+  <div className="service-rendering-image-container-4">
+  </div>
+</div>
+</div>
 
 
 
