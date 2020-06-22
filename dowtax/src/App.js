@@ -2,6 +2,11 @@ import React from 'react';
 import './App.css';
 import 'tachyons';
 import logo from './Images/mike.jpeg'
+import './CSS/About.css'
+import './CSS/Services.css'
+import './CSS/Updates.css'
+import './CSS/Resources.css'
+import './CSS/Contact.css'
 
 function App() {
   return (
@@ -23,7 +28,7 @@ function App() {
         <li className="nav-item"><a href="#About">About</a></li>
         <li className="nav-item"><a href="#Services">Services</a></li>
         <li className="nav-item"><a href="#Updates">Updates</a></li>
-        <li className="nav-item"><a href="#">Resources</a></li>
+        <li className="nav-item"><a href="#Resources">Resources</a></li>
         <li className="nav-item"><a href="#">Contact & Payment</a></li>
         </ul>
       </header>
@@ -93,7 +98,7 @@ function App() {
         <li className="nav-item"><a href="#About">About</a></li>
         <li className="nav-item"><a href="#Services">Services</a></li>
         <li className="nav-item"><a href="#">Updates</a></li>
-        <li className="nav-item"><a href="#">Resources</a></li>
+        <li className="nav-item"><a href="Resources">Resources</a></li>
         <li className="nav-item"><a href="#">Contact & Payment</a></li>
         </ul>
       </header>
@@ -170,18 +175,43 @@ July 15, 2020— The Department of Revenue today announced the deadline for taxp
 <p>This means taxpayers will have an additional 90 days to file from the original deadline of April 15</p>
   </div>
 </div>
-
-
-
-{/* Resources Rendering */}
-
-
-
-
-
 </div>
 
+  {/*  Separater Div renderings */}
 
+  <div className="separater-div"> </div>
+
+  {/* Resources Renderings */}
+
+<div id="Resources">
+<div className="resources-flex-container">
+<div className="resources">
+  <h1> Resources</h1>
+  </div>
+  <div className='resources-container-flex'>
+  <div className="resource-container">
+  <div className="resources-text-container">
+      <h1> Track Your Refund</h1>
+    </div>
+  </div>
+  <div className="resource-container">
+  <div className="resources-text-container">
+      <h1> WWW.IRS.GOV</h1>
+    </div>
+  </div>
+  <div className="resource-container">
+  <div className="resources-text-container">
+      <h1> https://www.yatb.com/</h1>
+    </div>
+  </div>
+  <div className="resource-container">
+  <div className="resources-text-container">
+      <h1> https://www.keystonecollects.com/</h1>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
 
 
 

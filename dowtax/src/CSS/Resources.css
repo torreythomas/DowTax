@@ -1,0 +1,36 @@
+#Resources {
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(249,237,233);
+}
+
+.resources-flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+}
+
+.resource-container{
+   width: 20vw;
+    height: 40vh;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.resources-container-flex{
+    display: flex;
+    width: 100vw;
+    margin-top: 5vh;
+    justify-content: space-evenly;
+}
+
+.resources-text-container{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+.resources{
+    font-size: 2em;
+}

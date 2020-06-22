@@ -1,0 +1,109 @@
+/* About Page Styling */
+
+#About{
+    width: 100vw;
+    height:120vh;
+    background-color: rgb(249,237,233);
+  }
+  
+  .about-description-container-one{
+    display: flex;
+  }
+  
+  .about-description-header-one{
+    width: 50vw;
+  }
+  
+  .about-logo-container{
+    background: url(../Images/logo_v2-removebg-preview.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    width:50vw;
+    height: 60vh;
+  }
+  
+  .about-description-container-one-sub-container{
+    display: flex;
+    flex-direction: column;
+    height:60vh;
+    justify-content: center;
+    text-align: left;
+  }
+  .about-description-header-one{
+    color:rgb(42,0,147);
+  }
+  
+  .about-description-main-text-one{
+    width: 40vw;
+    line-height: 3vh;
+    font-size: 20px;
+    color: #1a1a1a;
+  }
+  
+  img{
+    border-radius: 50%;
+  }
+  
+  .about-pic-container{
+    width:35vw;
+    height: 30vh;
+  }
+  
+  .about-description-container-two{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:10vh;
+  }
+  
+  .about-description-container-one-sub-container-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 768px){
+    .about-description-header-one {
+      font-size:1em;
+      text-align: center;
+      width: 80vw;
+    }
+  
+    .about-description-container-one {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .about-description-container-two {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-description-main-text-one{
+      font-size: 12px;
+      width: 80vw;
+      text-align: center;
+    }
+  
+    .about-description-container-one-sub-container{
+      height:30vh;
+      margin-top: -50px;
+    }
+    .about-description-container-one-sub-container-two{
+      height:30vh;
+      margin-top: -30px;
+    }
+    .about-logo-container{
+      height: 25vh;
+      margin: 15px;
+    }
+  
+    .about-pic-container{
+      height: 25vh;
+      margin-top: -30px;
+    }
+  }
