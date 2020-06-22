@@ -75,7 +75,12 @@ function App() {
         </div>
         </div>
     </div>
-  
+    {/*  Separater Div renderings */}
+
+    <div className="separater-div"> </div>
+
+
+
           {/* Services renderings */}
 
 <div id="Services">
@@ -136,15 +141,17 @@ function App() {
 </div>
 
 
-      {/*  Separater Div renderings */}
+  {/*  Separater Div renderings */}
 
-      <div className="separater-div"> </div>
-
-
+  <div className="separater-div"> </div>
           {/*  Updates Renderings */}
 
+
+
 <div id="Updates">
+
 <div className="updates-container">
+  <h1 className="grow shadow-5 dib updates-container-header"> We value keeping you <i className="covered"> updated</i> </h1>
   <div className="update-container-1 grow shadow-5 dib">
     <h1 className="update-header"> <u>COVID-19 Update </u></h1>
     <p>  In response to the COVID-19 pandemic, M. Doweary & Associates, LLC is following the CDC and Pennsylvania Health Department Guidelines on social distancing to limit the spread and exposure of coronavirus. M. Doweary & Associates, LLC community office will therefore be closed to the public during this unprecedented time. </p>
@@ -163,7 +170,18 @@ July 15, 2020— The Department of Revenue today announced the deadline for taxp
 <p>This means taxpayers will have an additional 90 days to file from the original deadline of April 15</p>
   </div>
 </div>
+
+
+
+{/* Resources Rendering */}
+
+
+
+
+
 </div>
+
+
 
 
 

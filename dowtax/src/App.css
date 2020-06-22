@@ -383,14 +383,13 @@ img{
 
 .our-services-design{
   text-align: center;
-  background-color: rgb(249,237,233);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 14vh;
-  color: black;
+  margin-top: 8vh;
+  font-size: 45px;
 }
 
 @media (max-width: 374px){
@@ -459,7 +458,7 @@ img{
 
     #Services{
       width:100vw;
-      height:300vh;
+      height:240vh;
       color: whitesmoke;
       background-color: #1a1a1a;
     }
@@ -541,7 +540,7 @@ img{
 
     #Services{
       width:100vw;
-      height:300vh;
+      height:190vh;
       color: whitesmoke;
       background-color: #1a1a1a;
     }
@@ -578,6 +577,13 @@ img{
     height: 30vh;
 
   }
+
+  #Services{
+    width:100vw;
+    height:210vh;
+    color: whitesmoke;
+    background-color: #1a1a1a;
+  }
   
   .service-rendering-image-container-3{
     background: url(./Images/govment.jpeg) no-repeat center center;
@@ -607,8 +613,8 @@ img{
 
 #Updates{
   width: 100vw;
-  height: 100vh;
-  background-color: rgb(249,237,233);
+  height: 130vh;
+  background-color: #1a1a1a;
 }
 
 .updates-container{
@@ -618,6 +624,19 @@ img{
   width: 100vw;
   color: white;
 }
+
+
+.updates-container-header{
+  height:10vh;
+  align-items: center;
+  padding: 20px;
+  width: 40vw;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 40px;
+  margin-top: 10vh;
+}
+
 
 .update-container-1{
   width:80vw;
@@ -677,6 +696,8 @@ img{
   margin-top: -10vh;
 }
 
+
+
 @media (max-width: 374px){
   .update-container-1{
     width:100vw;
@@ -709,17 +730,30 @@ img{
   .separater-div-2{
    display:none;
   }
+
+
+.updates-container-header{
+  height:10vh;
+  align-items: center;
+  padding: 20px;
+  width: 80vw;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 18px;
+  margin-top: 10vh;
+}
+
 }
 
 @media (min-width: 375px) and (max-width:768px){
   .update-container-1{
     width:100vw;
-    height:50vh;
+    height:43vh;
     font-family: 'Merriweather', serif;
     padding: 20px;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
-    line-height: 13px;
+    line-height: 17px;
   }
   
   .update-container-2{
@@ -727,10 +761,16 @@ img{
     height:30vh;
     font-family: 'Merriweather', serif;
     padding: 10px;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
-    line-height: 13px;
-    margin-top: -18vh;
+    line-height: 17px;
+    margin-top: 4vh;
+  }
+
+  #Updates{
+    width: 100vw;
+    height: 115vh;
+    background-color: #1a1a1a;
   }
 
   .update-header{
@@ -744,12 +784,24 @@ img{
   .separater-div-2{
    display:none;
   }
+
+  .updates-container-header{
+    height:7vh;
+    align-items: center;
+    padding: 20px;
+    width: 80vw;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 15px;
+    margin-top: 5vh;
+  }
+  
 }
 
 @media (min-width: 768px) and (max-width:1024px){
   .update-container-1{
     width:100vw;
-    height:50vh;
+    height:35vh;
     font-family: 'Merriweather', serif;
     padding: 20px;
     font-size: 20px;
@@ -765,7 +817,7 @@ img{
     font-size: 20px;
     text-align: center;
     line-height: 23px;
-    margin-top: -18vh;
+    margin-top: 6vh;
   }
 
   .update-header{
@@ -775,29 +827,48 @@ img{
     color: red;
     font-size: 25px;
   }
+
+
+  .updates-container-header{
+    height:10vh;
+    align-items: center;
+    padding: 20px;
+    width: 80vw;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 40px;
+    margin-top: 10vh;
+  }
+
+  #Updates{
+    width: 100vw;
+    height: 140vh;
+    background-color: #1a1a1a;
+  }
+
   
 }
 
 @media (min-width: 1024px) and (min-height:1366px) {
   .update-container-1{
     width:100vw;
-    height:50vh;
+    height:30vh;
     font-family: 'Merriweather', serif;
     padding: 20px;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
-    line-height: 23px;
+    line-height: 28px;
   }
   
   .update-container-2{
     width:100vw;
-    height:30vh;
+    height:25vh;
     font-family: 'Merriweather', serif;
     padding: 10px;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
-    line-height: 23px;
-    margin-top: -28vh;
+    line-height: 28px;
+    margin-top: 10vh;
   }
 
   .update-header{
@@ -806,5 +877,11 @@ img{
     animation: pulse 2s infinite;
     color: red;
     font-size: 25px;
+  }
+
+  #Updates{
+    width: 100vw;
+    height: 160vh;
+    background-color: #1a1a1a;
   }
 }
