@@ -1,27 +1,30 @@
 #Resources {
     width: 100vw;
-    height: 80vh;
+    height: 200vh;
     background-color: rgb(249,237,233);
+    display: flex;
+    color: white;
 }
 
 .resources-flex-container{
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 200vh;
+    width: 50vw;
     align-items: center;
+    background-color: #58767e;
 }
 
 .resource-container{
    width: 20vw;
     height: 40vh;
+    margin: 20px;
     background-color: rgba(0,0,0,0.8);
+    transition: .5s;
 }
 
-.resources-container-flex{
-    display: flex;
-    width: 100vw;
-    margin-top: 5vh;
-    justify-content: space-evenly;
+.resource-container:hover{
+    background-color: #00457C;
 }
 
 .resources-text-container{
@@ -32,5 +35,397 @@
     color: whitesmoke;
 }
 .resources{
-    font-size: 2em;
+    font-size: 1.5em;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.payment-container{
+   color: black;
+   margin-top:20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.image-container{
+    background: url(../Images/resources.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 20px;
+    width: 50vw;
+    height: 50vh;
+}
+
+.payment-subtext{
+    font-size:1em;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.payment{
+    font-size: 3em;
+}
+.paypal{
+    color: white;
+    border: none;
+    background-color: #00457C;
+    width: 15vw;
+    text-align:center;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+.paypal:hover{
+    background-color:  #0079C1;
+}
+
+.contact-section-label{
+    margin-top: 50vh;
+}
+
+.contact-container{
+    margin-top:30vh;
+    margin-left: -2vw;
+    display: flex;
+    color: black;
+}
+.image-container-two{
+    background: url(../Images/location.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    margin: 20px;
+    width: 30vw;
+    height: 30vh;
+}
+.contact-separater{
+    border: .4px solid gray;
+}
+
+hr{
+    height: 45vh;
+    width: 1px;
+    position: absolute;
+    color: gray;
+    left: 24vw;
+}
+
+.text-div-payment{
+    width: 20vw;
+}
+
+.contact-name{
+    font-size: 1.2em;
+}
+
+.email{
+    margin-top: 2vh;
+}
+
+#blue{
+    border: 2px solid #0079C1;
+    color: black;
+    margin-top: 5vh;
+}
+
+#blue:hover{
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+}
+
+.consultation-button {
+    margin-top:4vh;
+}
+.profile-picture{
+    margin-top:15vh;
+}
+
+@media (max-width: 374px){
+.resources-text-container{
+    font-size: 8px;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.resource-container{
+    width: 40vw;
+    height: 20vh;
+}
+
+.contact-section-label{
+    font-size:0.5em;
+    text-align: center;
+    margin-top: 40vh;
+    margin-left:10px;
+}
+
+#img-container-responsive{
+    width:40vw;
+    height:20vh;
+}
+
+.payment{
+    font-size:14px;
+}
+
+.payment-subtext{
+    font-size: 12px;
+}
+
+.paypal{
+    padding:5px;
+    font-size: 10px;
+    width: 30vw;
+}
+
+.profile-picture{
+    width: 120px;
+}
+
+.resources{
+    font-size: 15px;
+    text-align: center;
+}
+
+#Contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-name{
+    font-size: 12px;
+    width: 30vw;
+}
+
+.text-div-payment{
+    text-align: center;
+    margin-left:13vw;
+}
+
+.flex-column{
+    width:35vw;
+}
+
+.fa-mobile-alt{
+    font-size:12px;
+    width:30vw;
+}
+
+.fa-envelope{
+    font-size:12px;
+    width:30vw;
+}
+
+hr{
+    height:35vh;
+}
+
+.consultation-button{
+    font-size:10px;
+    width:30vw;
+    
+}
+
+.image-container-two{
+    margin-left: 13vw;
+}
+}
+
+@media (min-width: 375px) and (max-width:768px){
+
+    .resources-text-container{
+        font-size: 8px;
+        text-align: center;
+        margin-top: -75px;
+    }
+    
+    .resource-container{
+        width: 40vw;
+        height: 20vh;
+    }
+    
+    .contact-section-label{
+        font-size:0.5em;
+        text-align: center;
+        margin-top: 40vh;
+        margin-left:10px;
+    }
+    
+    #img-container-responsive{
+        width:40vw;
+        height:20vh;
+    }
+    
+    .payment{
+        font-size:14px;
+    }
+    
+    .payment-subtext{
+        font-size: 12px;
+    }
+    
+    .paypal{
+        padding:5px;
+        font-size: 10px;
+        width: 30vw;
+    }
+    
+    .profile-picture{
+        width: 120px;
+    }
+    
+    .resources{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    #Contact{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-name{
+        font-size: 12px;
+        width: 30vw;
+    }
+    
+    .text-div-payment{
+        text-align: center;
+        margin-left:13vw;
+    }
+    
+    .flex-column{
+        width:35vw;
+    }
+    
+    .fa-mobile-alt{
+        font-size:12px;
+        width:30vw;
+    }
+    
+    .fa-envelope{
+        font-size:12px;
+        width:30vw;
+    }
+    
+    hr{
+        height:35vh;
+    }
+    
+    .consultation-button{
+        font-size:10px;
+        width:30vw;
+        
+    }
+    
+    .image-container-two{
+        margin-left: 13vw;
+    }
+
+}
+
+@media (min-width: 1024px) and (min-height:1366px) {
+
+    .resources-text-container{
+        font-size: 16px;
+        text-align: center;
+        margin-top: -140px;
+        margin-left: 10px;
+    }
+    
+    .resource-container{
+        width: 40vw;
+        height: 20vh;
+    }
+    
+    .contact-section-label{
+        font-size:0.5em;
+        text-align: center;
+        margin-top: 40vh;
+        margin-left:10px;
+    }
+    
+    #img-container-responsive{
+        width:45vw;
+        height: 30vh;
+        height:20vh;
+    }
+    
+    .payment{
+        font-size:4em;
+    }
+    
+    .payment-subtext{
+        font-size: 25px;
+    }
+    
+    .paypal{
+        padding:5px;
+        font-size: 20px;
+        width: 30vw;
+    }
+    
+    .profile-picture{
+        width: 120px;
+    }
+    
+    .resources{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    #Contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+    
+    .contact-name{
+        font-size: 20px;
+        width: 30vw;
+    }
+    
+    .text-div-payment{
+        text-align: center;
+        margin-left:13vw;
+    }
+    
+    .flex-column{
+        width:35vw;
+    }
+    
+    .fa-mobile-alt{
+        font-size:18px;
+        width:30vw;
+    }
+    
+    .fa-envelope{
+        font-size:18px;
+        width:30vw;
+    }
+    
+    hr{
+        height:35vh;
+    }
+    
+    .consultation-button{
+        font-size:20px;
+        width:30vw;
+        
+    }
+    
+    .image-container-two{
+        margin-left: 13vw;
+    }
+
 }

@@ -20,11 +20,12 @@
     height:10vh;
     align-items: center;
     padding: 20px;
-    width: 40vw;
+    width: 50vw;
     text-align: center;
-    background-color: rgba(0,0,0,0.5);
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+
   }
   
   
@@ -89,22 +90,32 @@
   
   
   @media (max-width: 374px){
+
+    .updates-container{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100vw;
+      color: white;
+      margin-top: -40vh;
+    }
+    
     .update-container-1{
-      width:100vw;
-      height:50vh;
+      width:80vw;
+      height:55vh;
       font-family: 'Merriweather', serif;
       padding: 20px;
-      font-size: 14px;
+      font-size: 12px;
       text-align: center;
       line-height: 13px;
     }
     
     .update-container-2{
-      width:100vw;
-      height:30vh;
+      width:80vw;
+      height:40vh;
       font-family: 'Merriweather', serif;
       padding: 10px;
-      font-size: 14px;
+      font-size: 12px;
       text-align: center;
       line-height: 13px;
     }
@@ -128,9 +139,12 @@
     padding: 20px;
     width: 80vw;
     text-align: center;
-    background-color: rgba(0,0,0,0.5);
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10vh;
+  }
+
+  #Updates{
+    height: 150vh;
   }
   
   }
@@ -141,9 +155,20 @@
       height:43vh;
       font-family: 'Merriweather', serif;
       padding: 20px;
-      font-size: 16px;
+      font-size: 12px;
       text-align: center;
       line-height: 17px;
+    }
+    
+
+
+    .updates-container{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100vw;
+      color: white;
+      margin-top: -30vh;
     }
     
     .update-container-2{
@@ -151,7 +176,7 @@
       height:30vh;
       font-family: 'Merriweather', serif;
       padding: 10px;
-      font-size: 16px;
+      font-size: 12px;
       text-align: center;
       line-height: 17px;
       margin-top: 4vh;
@@ -181,7 +206,6 @@
       padding: 20px;
       width: 80vw;
       text-align: center;
-      background-color: rgba(0,0,0,0.5);
       font-size: 15px;
       margin-top: 5vh;
     }

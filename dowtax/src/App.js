@@ -6,7 +6,6 @@ import './CSS/About.css'
 import './CSS/Services.css'
 import './CSS/Updates.css'
 import './CSS/Resources.css'
-import './CSS/Contact.css'
 
 function App() {
   return (
@@ -29,7 +28,7 @@ function App() {
         <li className="nav-item"><a href="#Services">Services</a></li>
         <li className="nav-item"><a href="#Updates">Updates</a></li>
         <li className="nav-item"><a href="#Resources">Resources</a></li>
-        <li className="nav-item"><a href="#">Contact & Payment</a></li>
+        <li className="nav-item"><a href="#Contact">Contact</a></li>
         </ul>
       </header>
 
@@ -99,7 +98,7 @@ function App() {
         <li className="nav-item"><a href="#Services">Services</a></li>
         <li className="nav-item"><a href="#">Updates</a></li>
         <li className="nav-item"><a href="Resources">Resources</a></li>
-        <li className="nav-item"><a href="#">Contact & Payment</a></li>
+        <li className="nav-item"><a href="#Contact">Contact</a></li>
         </ul>
       </header>
 
@@ -150,13 +149,22 @@ function App() {
 
   <div className="separater-div"> </div>
           {/*  Updates Renderings */}
-
-
-
 <div id="Updates">
 
+       {/* Navigation Menu */}
+       <header className="navigation-header-2">
+        <ul className="navigation-items-container">
+        <li className="nav-item"><a href="#Home">Home</a></li>
+        <li className="nav-item"><a href="#About">About</a></li>
+        <li className="nav-item"><a href="#Services">Services</a></li>
+        <li className="nav-item"><a href="#">Updates</a></li>
+        <li className="nav-item"><a href="Resources">Resources</a></li>
+        <li className="nav-item"><a href="#Contact">Contact</a></li>
+        </ul>
+      </header>
+
 <div className="updates-container">
-  <h1 className="grow shadow-5 dib updates-container-header"> We value keeping you <i className="covered"> updated</i> </h1>
+  <h1 className=" updates-container-header"> We value keeping you <i className="covered"> updated</i> </h1>
   <div className="update-container-1 grow shadow-5 dib">
     <h1 className="update-header"> <u>COVID-19 Update </u></h1>
     <p>  In response to the COVID-19 pandemic, M. Doweary & Associates, LLC is following the CDC and Pennsylvania Health Department Guidelines on social distancing to limit the spread and exposure of coronavirus. M. Doweary & Associates, LLC community office will therefore be closed to the public during this unprecedented time. </p>
@@ -177,39 +185,74 @@ July 15, 2020— The Department of Revenue today announced the deadline for taxp
 </div>
 </div>
 
-  {/*  Separater Div renderings */}
 
-  <div className="separater-div"> </div>
 
   {/* Resources Renderings */}
 
 <div id="Resources">
 <div className="resources-flex-container">
 <div className="resources">
-  <h1> Resources</h1>
+  <h1> Helpful <i className="covered"> Resources </i> </h1>
   </div>
   <div className='resources-container-flex'>
-  <div className="resource-container">
+  <div className="resource-container br3 grow dib shadow-4"><a href="https://www.doreservices.state.pa.us/PITServices/WheresMy/Refund">
   <div className="resources-text-container">
-      <h1> Track Your Refund</h1>
+      <h1> Refund Tracker</h1>
     </div>
+    </a>
   </div>
-  <div className="resource-container">
+  <div className="resource-container br3 grow dib shadow-4"><a href="https://www.irs.gov/">
   <div className="resources-text-container">
-      <h1> WWW.IRS.GOV</h1>
+      <h1>IRS</h1>
     </div>
+    </a>
   </div>
-  <div className="resource-container">
+  <div className="resource-container br3 grow dib shadow-4"><a href="https://www.yatb.com/">
   <div className="resources-text-container">
-      <h1> https://www.yatb.com/</h1>
+      <h1>YATB </h1>
     </div>
+    </a>
   </div>
-  <div className="resource-container">
+  <div className="resource-container br3 grow dib shadow-4"><a href=" https://www.keystonecollects.com/">
   <div className="resources-text-container">
-      <h1> https://www.keystonecollects.com/</h1>
+      <h1> Keystone Collects</h1>
     </div>
+    </a>
   </div>
+  <div className="contact-separater"></div>
+<hr />
   </div>
+  <div className="contact-section-label">
+      <h1> We would <i className="covered">love</i> to hear from you.</h1>
+    </div>
+</div>
+
+<div className="flex-column">
+
+<div id="img-container-responsive" className="image-container"></div>
+
+<div className="payment-container">
+  <h2 className="payment"> Payment </h2>
+  <p className="payment-subtext"> Need to make a payment? Click the button below!</p>
+  <a className="paypal" href="https://www.paypal.me/mikedoweary"> Make A Payment</a>
+
+  <img className="profile-picture" src={logo}></img>
+</div>
+
+<div id="Contact" className="contact-container">
+<div className="image-container-two"></div>
+<div className="text-div-payment">
+  <h2 className="contact-name"> Micheal T. Doweary, EA, MBA</h2>
+  <i class="fas fa-mobile-alt"> +1 (717) 885-0098</i>
+  <div className="email">
+  <i class="far fa-envelope"> micheal@dow.tax </i>
+  </div>
+<div className="consultation-button">
+  <a className="paypal" href="info@dow.tax"> Request A Consultation</a>
+</div>
+</div>
+</div>
+
 </div>
 </div>
 
