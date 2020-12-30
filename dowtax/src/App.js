@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <head>
-  <meta name="google-site-verification" content="7lAbN64yq8ZNPvnCOYAMq6RoF6-Pv_EWq6Wx8ZW6X8s" />
+  <meta name="google-site-verification" content="7lAbN64yq8ZNPvnCOYAMq6RoF6-Pv_EWq6Wx8ZW6X8s"/>
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
